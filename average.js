@@ -1,6 +1,6 @@
 function average(list) {
-  var sum = 0;
-  for (var num of list) {
+  let sum = 0;
+  for (let num of list) {
     sum += num;
   } return sum / list.length;
 }
